@@ -1,22 +1,29 @@
-# School-Management
-Node JS Assignment
-Postman Collection:
-To test the APIs, you can create a Postman collection with the following requests:
+# School Management System
 
-Add School API:
+This project is a Node.js assignment that implements a set of APIs using the **Node.js**, **Express.js**, and **MySQL** to manage school data. The system allows users to add new schools and retrieve a list of schools sorted by proximity to a user-specified location.
 
-Method: POST
-URL: http://localhost:7000/api/v1/addSchool
-Body:
-json
-Copy code
-{
-  "name": "Greenwood School",
-  "address": "123 Main St, City, Country",
-  "latitude": 40.7128,
-  "longitude": -74.0060
-}
-List Schools API:
+## Project Setup
 
-Method: GET
-URL: http://localhost:7000/api/v1/listSchools?latitude=40.7128&longitude=-74.0060
+### Prerequisites
+
+Before running the project, ensure you have the following installed:
+
+- **Node.js** (>=14.x)
+- **MySQL** (or MariaDB)
+- **Postman** (for testing APIs)
+
+### Installation
+
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/school-management.git
+   cd school-management
+
+### Key Sections:
+
+- **Setup and Installation**: Describes how to clone the repo, install dependencies, and set up MySQL.
+- **API Endpoints**: Explains the two APIs—adding schools and listing schools with proximity-based sorting.
+- **Postman Collection**: Provides details on how to test the APIs using Postman.
+- **Contributing and License**: Encourages others to contribute and provides the project license.
+
+Let me know if you need further modifications!
