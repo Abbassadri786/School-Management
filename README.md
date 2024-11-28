@@ -16,7 +16,7 @@ Before running the project, ensure you have the following installed:
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/school-management.git
+   git clone https://github.com/Abbassadri786/school-management.git
    cd school-management
 
 ### Key Sections:
@@ -25,5 +25,3 @@ Before running the project, ensure you have the following installed:
 - **API Endpoints**: Explains the two APIs—adding schools and listing schools with proximity-based sorting.
 - **Postman Collection**: Provides details on how to test the APIs using Postman.
 - **Contributing and License**: Encourages others to contribute and provides the project license.
-
-Let me know if you need further modifications!
