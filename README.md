@@ -18,6 +18,7 @@ Before running the project, ensure you have the following installed:
    ```bash
    git clone https://github.com/Abbassadri786/school-management.git
    cd school-management
+**Note**: After setting up the project, kindly install all the npm modules by running npm i.
 
 ### Key Sections:
 
